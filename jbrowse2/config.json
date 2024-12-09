@@ -1,42 +1,6 @@
 {
   "assemblies": [
     {
-      "name": "hg38",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "hg38-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "hg38.fa",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "hg38.fa.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "OmicronBA1.1",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "OmicronBA1.1-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "OmicronBA1.1.fasta",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "OmicronBA1.1.fasta.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
       "name": "Beta",
       "sequence": {
         "type": "ReferenceSequenceTrack",
@@ -133,50 +97,6 @@
     "name": "New Session"
   },
   "tracks": [
-    {
-      "type": "FeatureTrack",
-      "trackId": "genes.gff",
-      "name": "genes.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "genes.gff.gz",
-          "locationType": "UriLocation"
-        },
-        "index": {
-          "location": {
-            "uri": "genes.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "hg38"
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "sortedOmicron.gff",
-      "name": "sortedOmicron.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "sortedOmicron.gff.gz",
-          "locationType": "UriLocation"
-        },
-        "index": {
-          "location": {
-            "uri": "sortedOmicron.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "OmicronBA1.1"
-      ]
-    },
     {
       "type": "FeatureTrack",
       "trackId": "sortedBeta.gff",
