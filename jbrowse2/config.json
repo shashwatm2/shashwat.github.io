@@ -1,0 +1,491 @@
+{
+  "assemblies": [
+    {
+      "name": "hg38",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hg38-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hg38.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hg38.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "OmicronBA1.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "OmicronBA1.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "OmicronBA1.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "OmicronBA1.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Beta",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Beta-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Beta.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Beta.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Gamma",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Gamma-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Gamma.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Gamma.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Delta",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Delta-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Delta.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Delta.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Omicron2",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Omicron2-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Omicron2.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Omicron2.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alpha",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Alpha-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Alpha.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Alpha.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "genes.gff",
+      "name": "genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedOmicron.gff",
+      "name": "sortedOmicron.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedOmicron.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedOmicron.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "OmicronBA1.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedBeta.gff",
+      "name": "sortedBeta.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedBeta.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedBeta.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Beta"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedGamma.gff",
+      "name": "sortedGamma.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedGamma.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedGamma.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Gamma"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedDelta.gff",
+      "name": "sortedDelta.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedDelta.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedDelta.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Delta"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedOmicron2.gff",
+      "name": "sortedOmicron2.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedOmicron2.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedOmicron2.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Omicron2"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sortedAlpha.gff",
+      "name": "sortedAlpha.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedAlpha.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedAlpha.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Alpha"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Beta_Alpha",
+      "name": "Beta-Alpha Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Beta_Alpha.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Alpha",
+        "Beta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Beta_Delta",
+      "name": "Beta-Delta Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Beta_Delta.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Delta",
+        "Beta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Beta_Gamma",
+      "name": "Beta-Gamma Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Beta_Gamma.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Gamma",
+        "Beta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Beta_Omicron2",
+      "name": "Beta-Omicron2 Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Beta_Omicron2.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Omicron2",
+        "Beta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Delta_Alpha",
+      "name": "Delta-Alpha Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Delta_Alpha.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Alpha",
+        "Delta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Delta_Omicron2",
+      "name": "Delta-Omicron2 Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Delta_Omicron2.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Omicron2",
+        "Delta"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Gamma_Alpha",
+      "name": "Gamma-Alpha Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Gamma_Alpha.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Alpha",
+        "Gamma"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Gamma_Delta",
+      "name": "Gamma-Delta Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Gamma_Delta.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Delta",
+        "Gamma"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Gamma_Omicron2",
+      "name": "Gamma-Omicron2 Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Gamma_Omicron2.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Omicron2",
+        "Gamma"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Omicron2_Alpha",
+      "name": "Omicron2-Alpha Synteny",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "Omicron2_Alpha.paf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Alpha",
+        "Omicron2"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg38-index",
+      "ixFilePath": {
+        "uri": "trix/hg38.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg38.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg38_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "OmicronBA1.1-index",
+      "ixFilePath": {
+        "uri": "trix/OmicronBA1.1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/OmicronBA1.1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/OmicronBA1.1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "OmicronBA1.1"
+      ]
+    }
+  ]
+}

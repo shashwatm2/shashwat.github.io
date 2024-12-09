@@ -1,0 +1,17 @@
+Omicron2	29002	2202	6315	+	Beta	29485	2508	6624	3865	3874	60	NM:i:251	ms:i:3464	AS:i:3461	nn:i:242	tp:A:P	cm:i:337	s1:i:3410	s2:i:0	de:f:0.0605	zd:i:3	rl:i:0	cg:Z:3662M3D451M
+Omicron2	29002	15784	18615	+	Beta	29485	16093	18924	2828	2831	60	NM:i:3	ms:i:2771	AS:i:2771	nn:i:0	tp:A:P	cm:i:264	s1:i:2671	s2:i:0	de:f:0.0011	zd:i:3	rl:i:0	cg:Z:2831M
+Omicron2	29002	22469	25278	+	Beta	29485	22793	25602	2717	2728	60	NM:i:92	ms:i:2427	AS:i:2427	nn:i:81	tp:A:P	cm:i:246	s1:i:2489	s2:i:0	de:f:0.0328	zd:i:3	rl:i:0	cg:Z:2809M
+Omicron2	29002	10353	12703	+	Beta	29485	10662	13012	2349	2350	60	NM:i:1	ms:i:2330	AS:i:2330	nn:i:0	tp:A:P	cm:i:240	s1:i:2429	s2:i:0	de:f:0.0004	zd:i:3	rl:i:0	cg:Z:2350M
+Omicron2	29002	12965	15526	+	Beta	29485	13274	15835	2349	2351	60	NM:i:212	ms:i:2101	AS:i:2101	nn:i:210	tp:A:P	cm:i:216	s1:i:2186	s2:i:0	de:f:0.0828	zd:i:3	rl:i:0	cg:Z:2561M
+Omicron2	29002	0	1294	+	Beta	29485	306	1600	1292	1294	60	NM:i:2	ms:i:1254	AS:i:1254	nn:i:0	tp:A:P	cm:i:134	s1:i:1356	s2:i:0	de:f:0.0015	zd:i:1	rl:i:0	cg:Z:1294M
+Omicron2	29002	8851	10104	+	Beta	29485	9160	10413	1244	1247	60	NM:i:9	ms:i:1181	AS:i:1181	nn:i:6	tp:A:P	cm:i:104	s1:i:1052	s2:i:0	de:f:0.0072	zd:i:3	rl:i:0	cg:Z:1253M
+Omicron2	29002	6637	7682	+	Beta	29485	6946	7991	1045	1045	60	NM:i:0	ms:i:1045	AS:i:1045	nn:i:0	tp:A:P	cm:i:109	s1:i:1103	s2:i:0	de:f:0	zd:i:3	rl:i:0	cg:Z:1045M
+Omicron2	29002	27133	28088	+	Beta	29485	27457	28421	950	964	60	NM:i:14	ms:i:806	AS:i:789	nn:i:0	tp:A:P	cm:i:84	s1:i:849	s2:i:0	de:f:0.0063	zd:i:3	rl:i:0	cg:Z:553M9D402M
+Omicron2	29002	19836	20486	+	Beta	29485	20145	20795	650	650	60	NM:i:0	ms:i:650	AS:i:650	nn:i:0	tp:A:P	cm:i:63	s1:i:638	s2:i:0	de:f:0	zd:i:3	rl:i:0	cg:Z:650M
+Omicron2	29002	25529	26232	+	Beta	29485	25853	26556	698	703	60	NM:i:5	ms:i:603	AS:i:603	nn:i:0	tp:A:P	cm:i:65	s1:i:658	s2:i:0	de:f:0.0071	zd:i:3	rl:i:0	cg:Z:703M
+Omicron2	29002	20714	21363	+	Beta	29485	21023	21687	646	664	60	NM:i:18	ms:i:499	AS:i:466	nn:i:0	tp:A:P	cm:i:56	s1:i:567	s2:i:0	de:f:0.0077	zd:i:3	rl:i:0	cg:Z:390M6D216M9D43M
+Omicron2	29002	28315	28682	+	Beta	29485	28648	29015	367	367	60	NM:i:0	ms:i:367	AS:i:367	nn:i:0	tp:A:P	cm:i:31	s1:i:314	s2:i:0	de:f:0	zd:i:2	rl:i:0	cg:Z:367M
+Omicron2	29002	26471	26836	+	Beta	29485	26795	27160	365	365	60	NM:i:0	ms:i:365	AS:i:365	nn:i:0	tp:A:P	cm:i:30	s1:i:304	s2:i:0	de:f:0	zd:i:3	rl:i:0	cg:Z:365M
+Omicron2	29002	1557	1920	+	Beta	29485	1863	2226	363	363	60	NM:i:0	ms:i:363	AS:i:363	nn:i:0	tp:A:P	cm:i:27	s1:i:273	s2:i:0	de:f:0	zd:i:3	rl:i:0	cg:Z:363M
+Omicron2	29002	18915	19251	+	Beta	29485	19224	19560	336	336	60	NM:i:0	ms:i:336	AS:i:336	nn:i:0	tp:A:P	cm:i:27	s1:i:273	s2:i:0	de:f:0	zd:i:3	rl:i:0	cg:Z:336M
+Omicron2	29002	8262	8594	+	Beta	29485	8571	8903	330	332	60	NM:i:2	ms:i:292	AS:i:292	nn:i:0	tp:A:P	cm:i:23	s1:i:233	s2:i:0	de:f:0.0060	zd:i:3	rl:i:0	cg:Z:332M

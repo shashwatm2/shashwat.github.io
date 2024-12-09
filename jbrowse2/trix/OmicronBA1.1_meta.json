@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-08T03:00:21.601Z",
+  "tracks": [
+    {
+      "trackId": "sortedOmicron.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "sortedOmicron.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "sortedOmicron.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "OmicronBA1.1"
+  ]
+}
