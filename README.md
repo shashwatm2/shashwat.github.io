@@ -45,8 +45,8 @@ efetch -db nucleotide -format fasta -id OL852672 > Gamma.fasta
 efetch -db nuccore -format gff3 -id OL852672 > Gamma.gff3
 efetch -db nucleotide -format fasta -id OL873994 > Delta.fasta
 efetch -db nuccore -format gff3 -id OL873994 > Delta.gff3
-efetch -db nucleotide -format fasta -id OL845686 > Omicron.fasta
-efetch -db nuccore -format gff3 -id OL845686 > Omicron.gff3
+efetch -db nucleotide -format fasta -id OL845686 > Omicron2.fasta
+efetch -db nuccore -format gff3 -id OL845686 > Omicron2.gff3
 ```
 
 ## 3. Process and load the data into jBrowse
