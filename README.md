@@ -82,3 +82,4 @@ Now you should be able to utilize the linear synteny view tool in jBrowse to ana
 Download the MSA_tree folder from this repository and place it in your appropriate directory/workspace. This folder should contain 2 files, a fasta file and a treefile. Next, add the MSA View Plugin from the jBrowse plugin store in the Tools section of jBrowse, and then upload these two files into the plugin directly to visualize a phylogenetic tree and multiple sequence alignment data of the 5 variants.
 
 ## 6. Download PDB data and visualize 3D protein structures in jBrowse
+Download the folder labeled "Spike Protein PDB Files". It contains PDB files that are labeled by variant and whether it contains the ACE2 receptor bound in the structure. In JBrowse, add the Protein3D plugin and launch Protein View from the navigation bar. You should be able to upload the PDB file of interest and examine the structure of the spike protein and how it interacts with the ACE2 receptor.
